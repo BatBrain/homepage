@@ -11,7 +11,12 @@ class Header extends Component {
         <h1 className='heading-background'>CREATIVE</h1>
             <header>
                 <h1>
-                    <Fade bottom cascade>{data.name}</Fade></h1>
+                    <Fade bottom cascade>
+                    </Fade>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+                            <text x="20" y="50" fontFamily="plaster">{data.name}</text>
+                        </svg>
+                </h1>
             </header>
             <Fade bottom>
             <p className='header-title'>

@@ -27,7 +27,7 @@ function App() {
       <div className='contact'>
         <Contact></Contact>
       </div>
-      
+
     </div>
   );
 }
