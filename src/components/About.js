@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import data from '../resumeData.json';
+import data from '../resumeData';
 
 class About extends Component {
     state = {  }
