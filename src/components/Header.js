@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../resumeData';
+import {ReactComponent as Logo} from '../logoOnly.svg';
 
 
 class Header extends Component {
@@ -12,10 +13,8 @@ class Header extends Component {
             <header>
                 <h1>
                     <Fade bottom cascade>
+                        {data.name}
                     </Fade>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-                            <text x="20" y="50" fontFamily="plaster">{data.name}</text>
-                        </svg>
                 </h1>
             </header>
             <Fade bottom>

@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import About from './components/About';
-import Work from './components/work';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 
@@ -20,8 +20,8 @@ function App() {
         <About></About>
       </div>
 
-      <div className='work'>
-        <Work></Work>
+      <div className='Projects'>
+        <Projects></Projects>
       </div>
 
       <div className='contact'>

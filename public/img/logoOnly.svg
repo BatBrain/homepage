@@ -2,9 +2,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
               "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1.77778in" height="1.77778in"
+     viewBox="0 0 128 128">
   <path id="Selection"
-        fill="#209cee"
+        fill="#209cee" stroke="#209cee" stroke-width="1"
         d="M 8.00,0.85
            C -2.91,6.85 0.00,19.34 0.00,30.00
              0.00,30.00 0.00,112.00 0.00,112.00

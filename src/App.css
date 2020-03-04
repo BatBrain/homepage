@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Plaster&display=swap');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
 
 
 body{
@@ -41,6 +43,7 @@ header{
   align-items: center;
 }
 header h1{
+font-family: plaster;
 font-size: 1em;
 font-weight: 400;  
 padding: 2em;
@@ -122,7 +125,7 @@ li .link:hover{
 .about img{
   margin-left: 5em;
 }
-.work{
+.Projects{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -130,12 +133,12 @@ li .link:hover{
   top:8em;
   align-items: flex-start;
 }
-.work .heading{
+.Projects .heading{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
 }
-.work .work-content{
+.Projects .projects-content{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 2em;
@@ -161,7 +164,7 @@ height: 30em;
   opacity: 1;
 }
 
-.contact .email{
+.contact .contact-list {
   color:black;
   font-size: 2em;
 }
@@ -227,12 +230,12 @@ nav{
   width: 300px;
 }
 
-.work{
+.projects{
   left:2em;
   top:2em;
   align-items: flex-start;
 }
-.work .work-content{
+.projects .projects-content{
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5em;
@@ -307,12 +310,12 @@ nav{
   width: 700px;
 }
 
-.work{
+.projects{
   left:6em;
   top:4em;
   align-items: flex-start;
 }
-.work .work-content{
+.projects .projects-content{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5em;
@@ -393,12 +396,12 @@ nav li{
   margin-left: 1em;
 }
 
-.work{
+.projects{
   left:10em;
   top:4em;
   align-items: flex-start;
 }
-.work .work-content{
+.projects .projects-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
