@@ -22,6 +22,7 @@ class Header extends Component {
             {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
             {data.headerTagline[2]}
                <br></br>
+                    <a class="button" href="https://calendly.com/sol-ferguson/30-minute-interview">Schedule a Call</a>
                     <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
                 </p>
             </Fade>

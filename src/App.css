@@ -79,7 +79,7 @@ li .link:hover{
   opacity: 1;
 }
 
-.header-title button{
+.header-title .button{
   background: black;
   border: 0px;
   padding: 1em 3em;
@@ -89,10 +89,10 @@ li .link:hover{
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
 }
-.header-title button:hover{
+.header-title .button:hover{
   opacity: 0.8;
 }
-.header-title button a{
+.header-title .button a{
   font-family: 'Open Sans', sans-serif;
   color:white;
   text-decoration: none;
@@ -145,8 +145,11 @@ li .link:hover{
 }
 
 .project img{
-width: 30em;  
-height: 30em;
+  border-radius: 1.5em;
+  background: lightgray;
+  object-fit: scale-down;
+  width: 30em;
+  height: 30em;
 }
 .contact{
   position: relative;
